@@ -60,15 +60,15 @@
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   /* background-color: red; */
+   background-color: red;
    height: 10vh;
 }
 
 .titulo::after{
     content: "";
-    height: 10px;
-    width: 70px;
-    border-radius: 50%;
+    height: 10vh;
+    width: 5vw;
+    border-radius: 10px;
     background-color: var(--primaria-mais);
 }
 
@@ -130,7 +130,6 @@
 
 .perfil{
     height: 85vh;
-    /* background-color: #61E16E; */
     display: flex;
     justify-content: center;
 }
@@ -173,6 +172,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /* background-color: red; */
 }
 
 .curso{
@@ -180,7 +180,6 @@
 }
 
 .curso div:nth-child(1){
-    /* background-color: red; */
     text-transform: uppercase;
     display: flex;
     align-items: center;
@@ -198,12 +197,10 @@
 }
 
 .curso div:nth-child(2){
-    /* background-color: blueviolet; */
     margin-top: 30px;
 }
 
 .curso div:nth-child(2) h4{
-    /* background-color: blueviolet; */
     font-size: 50px;
     font-weight: normal;
     text-align: center;
@@ -234,7 +231,6 @@
 .sobre{
     height: 100vh;
     width: 100%;
-    /* background-color: #61E16E; */
     position: relative;
 }
 
@@ -252,14 +248,12 @@
 
 .sobre-container{
     height: 100%;
-    /* background-color: red; */
     display: flex;
 }
 
 .foto{
     height: 90vh;
     width: 50%;
-    /* background-color: blue; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -269,7 +263,6 @@
 .foto div{
     height: 60vh;
     width: 60vh;
-    /* background-color: #F29090; */
     border-radius: 50%;
 }
 
@@ -282,7 +275,6 @@
 .descricao{
     height: 90vh; 
     width: 50%;
-    /* background-color: chocolate; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -291,7 +283,6 @@
 .descricao-texto{
     height: 80vh;
     width: 100%;
-    /* background-color: cadetblue; */
     padding: 50px;
 }
 
@@ -322,5 +313,93 @@
 .conhecimentos{
     height: 100vh;
     width: 100%;
-    background-color: yellow;
+    background-color: red;
+    display: flex;
+}
+
+.skill{
+    color: var(--light);
+    margin-top: 5vh;
+}
+
+.back-end{
+    height: 100vh;
+    width: 50%;
+    background-color: var(--secundaria);  
+}
+
+.container-cards{
+    height: 82vh;
+    width: 100%;
+    padding: 5vh;
+    margin-top: 3vh;
+    /* background-color: rgb(30, 0, 255); */
+    display: grid;
+    justify-content: space-around;
+    grid-template-areas: 
+      "card card card"
+      "card card card"
+    ;
+
+}
+.card{
+    height: 30vh;
+    width: 20vh;
+    /* background-color: #61E16E; */
+    border-radius: 10px;
+    border: 1px solid white;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.card:hover{
+    background-color: var(--primaria);
+}
+
+.linguagem{
+    height: 50%;
+    width: 100%;
+    /* background-color: red; */
+    /* border-radius: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linguagem i{
+    font-size: 10vh;
+    text-align: center;
+    color: var(--primaria);
+}
+
+.card h5{
+    font-size: 3vh; 
+    text-align: center;
+    color: var(--light-mais);
+}
+
+/* .card h5:hover{
+    color: var(--secundaria);
+} */
+
+.card p{
+    font-size: 1vh;
+    letter-spacing: 1px;
+    text-align: justify;
+    padding: 35px;
+    color: var(--light-mais);
+}
+
+.front-end{
+    height: 100vh;
+    width: 50%;
+    background-color: var(--secundaria-menos);
+}
+
+/* PROJETOS */
+
+.projetos{
+    height: 100vh;
+    width: 100%;
+    background-color: var(--light-mais);
 }
