@@ -60,7 +60,6 @@
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   background-color: red;
    height: 10vh;
 }
 
@@ -346,10 +345,11 @@
     height: 30vh;
     width: 20vh;
     /* background-color: #61E16E; */
-    border-radius: 10px;
-    border: 1px solid white;
+    border-radius: 20px;
+    /* border: 1px solid white; */
     transition: all .5s;
     cursor: pointer;
+    
 }
 
 .card:hover{
@@ -366,21 +366,28 @@
     align-items: center;
 }
 
-.linguagem i{
+.card i{
     font-size: 10vh;
     text-align: center;
     color: var(--primaria);
+    transition: all .5s;
+}
+
+.card:hover i{
+    color: var(--secundaria);
+    font-size: 12vh;
 }
 
 .card h5{
-    font-size: 3vh; 
+    font-size: 2.5vh; 
     text-align: center;
-    color: var(--light-mais);
+    color: var(--primaria);
+    text-transform: uppercase;
 }
 
-/* .card h5:hover{
+.card:hover h5{
     color: var(--secundaria);
-} */
+}
 
 .card p{
     font-size: 1vh;
@@ -388,6 +395,10 @@
     text-align: justify;
     padding: 35px;
     color: var(--light-mais);
+}
+
+.card:hover p{
+    color: var(--secundaria);
 }
 
 .front-end{
