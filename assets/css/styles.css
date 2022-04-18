@@ -52,6 +52,26 @@
     text-align: center;
 }
 
+.titulo{
+   font-size: 5vh; 
+   text-transform: uppercase;
+   color: var(--secundaria-menos);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   /* background-color: red; */
+   height: 10vh;
+}
+
+.titulo::after{
+    content: "";
+    height: 10px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: var(--primaria-mais);
+}
+
 /* HOME */ 
 
 .container-main{
@@ -62,7 +82,8 @@
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-    clip-path: polygon(0 0, 100% 0%, 100% 85%, 50% 93%, 0 85%);
+    clip-path: polygon(0 0, 100% 0%, 100% 85%, 50% 97%, 0 85%);
+    z-index: 1;
 }
 
 .header-main{
@@ -211,6 +232,95 @@
 /* SOBRE*/
 
 .sobre{
+    height: 100vh;
+    width: 100%;
+    /* background-color: #61E16E; */
+    position: relative;
+}
+
+.sobre::after{
+    content: "";
+    display: block;
+    height: 113vh;
+    width: 15vw;
+    background-color: var(--primaria-mais);
+    position: absolute;
+    top: -13%;
+    left: 17vw;
+    z-index: -1;
+}
+
+.sobre-container{
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+}
+
+.foto{
+    height: 90vh;
+    width: 50%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.foto div{
+    height: 60vh;
+    width: 60vh;
+    /* background-color: #F29090; */
+    border-radius: 50%;
+}
+
+.foto img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.descricao{
+    height: 90vh; 
+    width: 50%;
+    /* background-color: chocolate; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descricao-texto{
     height: 80vh;
     width: 100%;
+    /* background-color: cadetblue; */
+    padding: 50px;
+}
+
+.descricao-texto h3{
+    font-size: 5vh;
+    color: var(--secundaria-mais);
+    letter-spacing: 1px;
+}
+
+.descricao-texto span{
+    color: var(--primaria-mais);
+    text-transform: uppercase;
+}
+
+.descricao-texto p{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    color: var(--secundaria-menos);
+    font-size: 2.25vh;
+    text-align: justify;
+}
+
+
+/* CONHECIMENTOS */
+
+.conhecimentos{
+    height: 100vh;
+    width: 100%;
+    background-color: yellow;
 }
