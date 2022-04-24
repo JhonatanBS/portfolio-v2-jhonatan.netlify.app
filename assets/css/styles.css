@@ -25,6 +25,10 @@
     font-family: "Roboto", sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* COMPONENTES*/
 
 .botao{
