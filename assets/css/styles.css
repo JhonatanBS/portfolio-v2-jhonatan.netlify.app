@@ -75,6 +75,7 @@ html{
     background-color: var(--primaria-mais);
 }
 
+
 /* HOME */ 
 
 .container-main{
@@ -287,6 +288,7 @@ html{
     height: 80vh;
     width: 100%;
     padding: 50px;
+    position: relative;
 }
 
 .descricao-texto h3{
@@ -310,6 +312,34 @@ html{
     text-align: justify;
 }
 
+.btn-scroll{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    position: fixed;
+    background-color: var(--primaria);
+    right: -100px; 
+    bottom: 20px;
+    outline: 3px solid var(--secundaria-menos);
+    transition: all .5s;
+    z-index: 1;
+    /* display: none; */
+}
+
+.btn-scroll.ativado{
+    right: 20px; 
+}
+
+.btn-scroll:hover, .btn-scroll:hover i{
+    background-color: var(--primaria-mais);
+    color: var(--light);
+}
+
+.btn-scroll i{
+    font-size: 30px;
+    color: var(--secundaria-menos);
+    transition: all .5s;
+}
 
 /* CONHECIMENTOS */
 
@@ -627,8 +657,6 @@ label{
 .campo:focus{
     outline: none;
 }
-
-
 
 #mensagem{
     max-width: 80%;
