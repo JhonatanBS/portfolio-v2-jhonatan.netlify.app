@@ -220,15 +220,16 @@
 /* HOME MOBILE*/ 
 
 @media screen and (max-width: 1000px){
+
     :root{   
         /* Typography*/
-        --h1--: 4.4vh;
-        --h2--: 2.4vh;
-        --h3--: 1.5vh;
-        --h4--: 1.2vh;
-        --p--: 1vh;
+        --h1--: 7vh;
+        --h2--: 4vh;
+        --h3--: 3vh;
+        --h4--: 2.7vh;
+        --h5--: 1.9vh;
+        --p--: 1.4vh;
      }
-
 
      .header-main{
         flex-wrap: wrap;
@@ -242,7 +243,6 @@
         font-size: 50px;
         justify-content: center;
         align-items: center;
-        /* position: fixed; */
         right: 0;
     }
 
@@ -296,7 +296,7 @@
     }
 
     .apresentacao{
-        width: 80%;
+        width: 100%;
     }
 
     .dados{
@@ -304,58 +304,159 @@
     }
 
     .formacao{
-        width: 80%; 
+        width: 100%; 
     }
 
     .curso{
         height: 50vh;
+        width: 70vw;
+    }
+
+    .curso div:nth-child(1){
+          justify-content: center;
+    }
+
+    .curso div:nth-child(1)::before{
+        display: none; 
     }
 
     .curso button{
         width: 100%;
-        font-size: var(--h3--);
     }
     
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 900px){
+
     :root{   
         /* Typography*/
-        --h1--: 3.5vh;
-        --h2--: 1.8vh;
+        --h1--: 6.5vh;
+        --h2--: 3.5vh;
+        --h3--: 2.9vh;
+        --h4--: 2.5vh;
+        --h5--: 1.7vh;
+        --p--: 1.3vh;
      }
 
-     .curso{
-        height: 50vh;
-    }
+}
 
+@media screen and (max-width: 750px){
+
+    :root{   
+        /* Typography*/
+        --h1--: 6vh;
+        --h2--: 3.3vh;
+        --h3--: 2.7vh;
+        --h4--: 2.4vh;
+        --h5--: 1.7vh;
+        --p--: 1.2vh;
+     }
+
+}
+
+@media screen and (max-width: 700px){
+
+    :root{   
+        /* Typography*/
+        --h1--: 5.7vh;
+        --h2--: 3.2vh;
+        --h3--: 2.6vh;
+        --h4--: 2.3vh;
+        --h5--: 1.6vh;
+        --p--: 1.15vh;
+     }
+
+}
+
+@media screen and (max-width: 650px){
+
+    :root{   
+        /* Typography*/
+        --h1--: 5.3vh;
+        --h2--: 3vh;
+        --h3--: 2.3vh;
+        --h4--: 2.1vh;
+        --h5--: 1.5vh;
+        --p--: 1.1vh;
+     }
+
+}
+
+@media screen and (max-width: 600px){
+    
+    :root{   
+        /* Typography*/
+        --h1--: 4.8vh;
+        --h2--: 2.7vh;
+        --h3--: 2vh;
+        --h4--: 1.8vh;
+        --h5--: 1.4vh;
+        --p--: 1.1vh;
+     }
+}
+
+@media screen and (max-width: 550px){
+    
+    :root{   
+        /* Typography*/
+        --h1--: 4.5vh;
+        --h2--: 2.4vh;
+        --h3--: 1.8vh;
+        --h4--: 1.5vh;
+        --h5--: 1.2vh;
+        --p--: 1vh;
+     }
 }
 
 @media screen and (max-width: 500px){
     :root{   
         /* Typography*/
-        --h1--: 2.8vh;
+        --h1--: 4vh;
+        --h2--: 2vh;
+        --h3--: 1.4vh;
+        --h4--: 1.2vh;
+        --h5--: 1.1vh;
+        --p--: 1vh;
+     }
+
+}
+
+@media screen and (max-width: 450px){
+    :root{   
+        /* Typography*/
+        --h1--: 3vh;
+        --h2--: 1.5vh;
+        --h3--: 1.2vh;
+        --h4--: 1vh;
+        --h5--: 0.95vh;
+        --p--: 0.9vh;
+     }
+
+}
+
+@media screen and (max-width: 400px){
+    :root{   
+        /* Typography*/
+        --h1--: 2.7vh;
         --h2--: 1.4vh;
+        --h3--: 1vh;
+        --h4--: 0.9vh;
+        --h5--: 0.8vh;
+        --p--: 0.7vh;
      }
 
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 350px){
     :root{   
         /* Typography*/
-        --h1--: 2.3vh;
-        --h2--: 1vh;
+        --h1--: 2.5vh;
+        --h2--: 1.3vh;
+        --h3--: 0.9vh;
+        --h4--: 0.8vh;
+        --h5--: 0.7vh;
+        --p--: 0.6vh;
      }
-
-}
-
-@media screen and (max-width: 400px){
-    :root{   
-        /* Typography*/
-        --h1--: 2vh;
-        --h2--: .8vh;
-     }
-
 }
 
 
