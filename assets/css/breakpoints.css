@@ -1,0 +1,452 @@
+
+/* HOME DESKTOP*/
+
+@media screen and (max-width: 1669px){
+    :root{   
+        /* Typography*/
+        --h1--: 7.5vh;
+        --h2--: 5vh;
+        --h3--: 3vh;
+        --h4--: 2.8vh;
+        /* --h5--: 2.4vh;
+        --h6--: 2.2vh; */
+        --p--: 2vh;
+        /* --small--: 1.15vh; */
+     }
+
+     .curso{
+        width: 70vh;
+    }
+}
+
+@media screen and (max-width: 1600px){
+    :root{   
+       /* Typography*/
+       --h1--: 7.3vh;
+       --h2--: 4.8vh;
+       --h3--: 2.8vh;
+       --h4--: 2.5vh;
+       /* --h5--: 2.3vh;
+       --h6--: 2vh; */
+       --p--: 1.95vh;
+       /* --small--: 1.15vh; */
+    }
+
+    .curso{
+       width: 68vh;
+   }
+}
+
+@media screen and (max-width: 1500px){
+    :root{   
+        /* Typography*/
+        --h1--: 7vh;
+        --h2--: 4.6vh;
+        --h3--: 2.6vh;
+        --h4--: 2.4vh;
+        /* --h5--: 2.3vh;
+        --h6--: 2vh; */
+        --p--: 1.92vh;
+        /* --small--: 1.15vh; */
+     }
+ 
+     .curso{
+        width: 66vh;
+    }
+}
+
+@media screen and (max-width: 1450px){
+    :root{   
+        /* Typography*/
+        --h1--: 6.8vh;
+        --h2--: 4.4vh;
+        --h3--: 2.5vh;
+        --h4--: 2.3vh;
+        /* --h5--: 2.3vh;
+        --h6--: 2vh; */
+        --p--: 1.90vh;
+        /* --small--: 1.15vh; */
+     }
+ 
+     .curso{
+        width: 65vh;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    :root{   
+        /* Typography*/
+        --h1--: 6.55vh;
+        --h2--: 4.25vh;
+        --h3--: 2.45vh;
+        --h4--: 2.15vh;
+        /* --h5--: 2.3vh;
+        --h6--: 2vh; */
+        --p--: 1.88vh;
+        /* --small--: 1.15vh; */
+     }
+ 
+     .curso{
+        width: 64vh;
+    }
+}
+
+@media screen and (max-width: 1350px){
+    :root{   
+        /* Typography*/
+        --h1--: 6vh;
+        --h2--: 4vh;
+        --h3--: 2.2vh;
+        --h4--: 2.1vh;
+        /* --h5--: 2.3vh;
+        --h6--: 2vh; */
+        --p--: 1.86vh;
+        /* --small--: 1.15vh; */
+     }
+ 
+     .curso{
+        width: 63vh;
+    }
+}
+
+@media screen and (max-width: 1300px){
+    :root{   
+        /* Typography*/
+        --h1--: 5.8vh;
+        --h2--: 3.85vh;
+        --h3--: 2.15vh;
+        --h4--: 2.05vh;
+        /* --h5--: 2.3vh;
+        --h6--: 2vh; */
+        --p--: 1.84vh;
+        /* --small--: 1.15vh; */
+     }
+ 
+     .curso{
+        width: 62vh;
+    }
+}
+
+@media screen and (max-width: 1250px){
+    :root{   
+        /* Typography*/
+        --h1--: 5.6vh;
+        --h2--: 3.6vh;
+        --h3--: 2.05vh;
+        --h4--: 1.9vh;
+        /* --h5--: 2.3vh;
+        --h6--: 2vh; */
+        --p--: 1.82vh;
+        /* --small--: 1.15vh; */
+     }
+ 
+     .curso{
+        width: 60vh;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    :root{   
+        /* Typography*/
+        --h1--: 5.4vh;
+        --h2--: 3.45vh;
+        --h3--: 1.9vh;
+        --h4--: 1.8vh;
+        /* --h5--: 2.3vh;
+        --h6--: 2vh; */
+        --p--: 1.82vh;
+        /* --small--: 1.15vh; */
+     }
+ 
+     .curso{
+        width: 50vh;
+    }
+}
+
+@media screen and (max-width: 1150px){
+    :root{   
+        /* Typography*/
+        --h1--: 5.1vh;
+        --h2--: 3.3vh;
+        --h3--: 1.85vh;
+        --h4--: 1.75vh;
+        /* --h5--: 2.3vh;
+        --h6--: 2vh; */
+        --p--: 1.55vh;
+        /* --small--: 1.15vh; */
+     }
+ 
+     .curso{
+        width: 49vh;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    :root{   
+        /* Typography*/
+        --h1--: 5vh;
+        --h2--: 3.1vh;
+        --h3--: 1.7vh;
+        --h4--: 1.6vh;
+        /* --h5--: 2.3vh;
+        --h6--: 2vh; */
+        --p--: 1.50vh;
+        /* --small--: 1.15vh; */
+     }
+ 
+     .curso{
+        width: 48vh;
+    }
+}
+
+@media screen and (max-width: 1050px){
+    :root{   
+        /* Typography*/
+        --h1--: 4.8vh;
+        --h2--: 2.8vh;
+        --h3--: 1.5vh;
+        --h4--: 1.4vh;
+        /* --h5--: 2.3vh;
+        --h6--: 2vh; */
+        --p--: 1.50vh;
+        /* --small--: 1.15vh; */
+     }
+ 
+     .curso{
+        width: 45vh;
+    }
+}
+
+/* HOME MOBILE*/ 
+
+@media screen and (max-width: 1000px){
+    :root{   
+        /* Typography*/
+        --h1--: 4.4vh;
+        --h2--: 2.4vh;
+        --h3--: 1.5vh;
+        --h4--: 1.2vh;
+        --p--: 1vh;
+     }
+
+
+     .header-main{
+        flex-wrap: wrap;
+    }
+
+    .hamburguer{
+        display: flex;
+        width: 15vh;
+        height: 15vh;
+        color: var(--light);
+        font-size: 50px;
+        justify-content: center;
+        align-items: center;
+        /* position: fixed; */
+        right: 0;
+    }
+
+    .menu{
+        height: 0;
+        width: 100%;
+        background-color: var(--secundaria-menos);
+        display: flex;
+        flex-direction: column;
+        transition: .6s;
+        visibility: hidden;
+        overflow-y: hidden;
+        z-index: 1;
+    }
+
+    .menu li{
+        width: 100%;
+        height: 100%;
+        transition: background .5s;
+    }
+
+    .menu li:hover{
+        background-color: var(--primaria);
+    }
+
+    .menu a{
+        padding: 30px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        font-size: var(--h2--);
+    }
+
+    .menu a:hover{
+        color: var(--light);
+    }
+
+    .menu.ative{
+        height: calc(100vh - 15vh);
+        visibility: visible;
+        overflow-y: auto;
+    }
+
+    .perfil{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .apresentacao{
+        width: 80%;
+    }
+
+    .dados{
+        text-align: center;
+    }
+
+    .formacao{
+        width: 80%; 
+    }
+
+    .curso{
+        height: 50vh;
+    }
+
+    .curso button{
+        width: 100%;
+        font-size: var(--h3--);
+    }
+    
+}
+
+@media screen and (max-width: 600px){
+    :root{   
+        /* Typography*/
+        --h1--: 3.5vh;
+        --h2--: 1.8vh;
+     }
+
+     .curso{
+        height: 50vh;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+    :root{   
+        /* Typography*/
+        --h1--: 2.8vh;
+        --h2--: 1.4vh;
+     }
+
+}
+
+@media screen and (max-width: 400px){
+    :root{   
+        /* Typography*/
+        --h1--: 2.3vh;
+        --h2--: 1vh;
+     }
+
+}
+
+@media screen and (max-width: 400px){
+    :root{   
+        /* Typography*/
+        --h1--: 2vh;
+        --h2--: .8vh;
+     }
+
+}
+
+
+/* SOBRE DESKTOP*/
+
+
+/* SOBRE MOBILE*/
+
+@media screen and (max-width: 1000px){
+
+    .sobre-container{
+        flex-direction: column;
+        height: 90vh;
+        width: 100%;
+        align-items: center;
+    }
+
+    .foto div{
+        height: 30vh;
+        width: 30vh;
+        border-radius: 50%;
+    }
+
+    .descricao-texto{
+        height: 100%;
+        width: 100%;
+        padding: 50px;
+        position: relative;
+    }
+}
+
+/* CONHECIMENTOS DESKTOP*/
+
+
+/* CONHECIMENTOS MOBILE*/
+
+@media screen and (max-width: 1000px){
+
+    .conhecimentos{
+       height: 100%;
+       flex-direction: column;
+    }
+
+    .back-end{
+        width: 100%;
+    }
+
+    .front-end{
+        width: 100%;
+    }
+}
+
+/* PROJETOS DESKTOP*/
+
+
+/* PROJETOS MOBILE*/
+
+@media screen and (max-width: 1000px){
+
+    .projetos{
+        height: 100%;
+    }
+    .container-projetos{
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+
+/* CONTATO DESKTOP*/
+
+
+/* CONTATO MOBILE*/
+
+@media screen and (max-width: 1000px){
+
+    .formulario{
+        height: 100%;
+    }
+
+    .container-form{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+/* FOOTER */
