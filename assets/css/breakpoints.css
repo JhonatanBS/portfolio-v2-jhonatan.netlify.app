@@ -462,22 +462,46 @@
 
 /* SOBRE DESKTOP*/
 
+@media screen and (max-width: 1300px){
+
+    .foto div{
+        height: 50vh;
+        width: 50vh;
+    }
+
+}
 
 /* SOBRE MOBILE*/
 
 @media screen and (max-width: 1000px){
+
+    .sobre::after{
+        height: 20vh;
+        width: 100%;
+        top: 20vh;
+        left: 0; 
+    }
 
     .sobre-container{
         flex-direction: column;
         height: 90vh;
         width: 100%;
         align-items: center;
+        /* background-color: aquamarine; */
+    }
+
+    .foto{
+        width: 100%;
     }
 
     .foto div{
-        height: 30vh;
-        width: 30vh;
-        border-radius: 50%;
+        height: 40vh;
+        width: 40vh;
+    }
+
+    .descricao {
+        width: 100%;
+        text-align: center;
     }
 
     .descricao-texto{
@@ -485,7 +509,26 @@
         width: 100%;
         padding: 50px;
         position: relative;
+        /* background-color: blueviolet; */
     }
+}
+
+@media screen and (max-width: 500px){
+
+    .foto div{
+        height: 30vh;
+        width: 30vh;
+    }
+
+}
+
+@media screen and (max-width: 400px){
+
+    .foto div{
+        height: 25vh;
+        width: 25vh;
+    }
+
 }
 
 /* CONHECIMENTOS DESKTOP*/
