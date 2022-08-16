@@ -23,7 +23,7 @@
    --h4--: 2.9vh;
    --h5--: 2.6vh;
    --h6--: 2.3vh;
-   --p--: 2.1vh;
+   --p--: 1.2rem;
    --small--: 1.2vh;
 }
 
@@ -53,6 +53,7 @@ html{
     border: none;
     cursor: pointer;
     transition: all .5s;
+    margin-top: 20px;
 }
 
 .botao:hover{
@@ -89,7 +90,7 @@ html{
 .container-main{
     width: 100%;
     height: 120vh;
-    background-image: url(/assets/img/Background.jpg);
+    background-image: url(/assets/img/home/Background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -107,8 +108,8 @@ html{
 }
 
 .img-logo{
-    height: 150px;
-    width: 150px;
+    height: 16vh;
+    width: 16vh;
 }
 
 #logotipo{
@@ -218,7 +219,7 @@ html{
     font-size: var(--h2--);
 }
 
-.curso div:nth-child(1)::before{
+.curso .curso-titulo::before{
     content: "";
     display: block;
     height: 8.32vh;
@@ -228,9 +229,9 @@ html{
     margin-right: 30px;
 }
 
-.curso div:nth-child(2){
+/* .curso div:nth-child(2){
     margin-top: 30px;
-}
+} */
 
 .curso div:nth-child(2) h4{
     font-size: var(--h2--);
@@ -242,15 +243,76 @@ html{
     font-size: var(--h3--);
     font-weight: normal;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .curso div:nth-child(2) p{
     font-size: var(--p--);
     font-weight: normal;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     text-align: justify;
     line-height: 1.5;
+}
+
+.section-icons {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.section-icons a {
+  height: 100px;
+  min-width: 100px;
+  border-radius: 50%;
+  padding: 20px;
+  background-color: var(--secundaria-menos);
+  
+}
+
+.lista:hover {
+    transform: translateY(0);
+    animation: float 1.5s ease-in-out infinite;
+}
+
+.fila:hover {
+    transform: translateY(0);
+    animation: float 1.5s ease-in-out infinite;
+}
+
+.pilha:hover {
+    transform: translateY(0);
+    animation: float 1.5s ease-in-out infinite;
+}
+
+.arvore-binaria:hover {
+    transform: translateY(0);
+    animation: float 1.5s ease-in-out infinite;
+}
+
+.tabela-hash:hover {
+    transform: translateY(0);
+    animation: float 1.5s ease-in-out infinite;
+}
+
+/* Efeito de animação Float*/
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }  
+  50% {
+    transform: translateY(-30px);
+  }  
+  100% {
+    transform: translateY(0);
+  }  
+}
+
+.section-icons img {
+  height: 100%;
+  width: 100%;  
 }
 
 /* SOBRE*/
@@ -261,7 +323,7 @@ html{
     position: relative;
 }
 
-.sobre::after{
+/*.sobre::after{
     content: "";
     display: block;
     height: 113vh;
@@ -271,7 +333,7 @@ html{
     top: -13%;
     left: 17vw;
     z-index: -1;
-}
+}*/
 
 .sobre-container{
     height: 100%;
@@ -288,15 +350,17 @@ html{
 }
 
 .foto div{
-    height: 60vh;
-    width: 60vh;
-    border-radius: 50%;
+    /*height: 70vh;
+    width: 70vh;
+    /*border-radius: 50%;*/
+    /*background-color: var(--secundaria-menos);*/
 }
 
 .foto img{
     height: 100%;
     width: 100%;
-    border-radius: 50%;
+    /*border-radius: 50%;*/
+    object-fit: cover;
 }
 
 .descricao{
@@ -318,6 +382,7 @@ html{
     font-size: var(--h2--);
     color: var(--secundaria-mais);
     letter-spacing: 1px;
+    margin-bottom: 40px;
 }
 
 .descricao-texto span{
@@ -326,8 +391,7 @@ html{
 }
 
 .descricao-texto p{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     letter-spacing: 1px;
     line-height: 1.5;
     color: var(--secundaria-menos);
@@ -358,7 +422,7 @@ html{
 }
 
 .btn-scroll i{
-    font-size: var(--h4--);
+    font-size: 30px;
     color: var(--secundaria-menos);
     transition: all .5s;
 }
@@ -394,8 +458,8 @@ html{
       "card card card"
       "card card card"
     ;
-
 }
+
 .card{
     height: 30vh;
     width: 20vh;
@@ -406,7 +470,7 @@ html{
 }
 
 .card:hover{
-    background-color: var(--primaria);
+    /* background-color: var(--primaria); */
 }
 
 .linguagem{
@@ -417,15 +481,16 @@ html{
     align-items: center;
 }
 
-.card i{
+.linguagem{
     font-size: 10vh;
     text-align: center;
     color: var(--primaria);
     transition: all .5s;
 }
 
-.card:hover i{
-    color: var(--secundaria);
+
+.card:hover .linguagem{
+    /* color: var(--secundaria); */
     font-size: 12vh;
 }
 
@@ -437,19 +502,19 @@ html{
 }
 
 .card:hover h5{
-    color: var(--secundaria);
+    /* color: var(--secundaria); */
 }
 
-.card p{
-    font-size: var(--small--);
-    letter-spacing: 1px;
-    text-align: justify;
-    padding: 35px;
-    color: var(--light-mais);
+.check{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    color: var(--primaria);
 }
 
 .card:hover p{
-    color: var(--secundaria);
+    /* color: var(--secundaria); */
+    
 }
 
 .front-end{
@@ -590,8 +655,6 @@ html{
     display: grid;
     grid-template-areas: 
     "fa-brands fa-brands fa-brands fa-brands"
-    
-    
     ;
     justify-content: space-evenly;
     align-items: center;
