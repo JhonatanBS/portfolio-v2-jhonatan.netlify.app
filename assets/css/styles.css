@@ -17,14 +17,14 @@
    --success:#61E16E;
    --danger:#F29090;
    /* Typography*/
-   --h1--: 8.4vh;
-   --h2--: 5.2vh;
-   --h3--: 3.2vh;
-   --h4--: 2.9vh;
-   --h5--: 2.6vh;
-   --h6--: 2.3vh;
+   --h1--: 4.87rem;
+   --h2--: 3rem;
+   --h3--: 1.87rem;
+   --h4--: 1.70rem;
+   --h5--: 1.5rem;
+   --h6--: 1.31rem;
    --p--: 1.2rem;
-   --small--: 1.2vh;
+   --small--: 1rem;
 }
 
 *{
@@ -36,6 +36,10 @@
 
 html{
     scroll-behavior: smooth;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
 }
 
 /* COMPONENTES*/
@@ -229,21 +233,11 @@ html{
     margin-right: 30px;
 }
 
-/* .curso div:nth-child(2){
-    margin-top: 30px;
-} */
-
-.curso div:nth-child(2) h4{
-    font-size: var(--h2--);
-    font-weight: normal;
-    text-align: center;
-}
-
-.curso div:nth-child(2) h5{
+.curso div:nth-child(2) h3{
     font-size: var(--h3--);
     font-weight: normal;
     text-align: center;
-    margin-bottom: 30px;
+    padding: 1.5rem 0;
 }
 
 .curso div:nth-child(2) p{
